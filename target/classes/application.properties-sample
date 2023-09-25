@@ -1,0 +1,17 @@
+# Spring
+spring.main.allow-bean-definition-overriding = true
+
+# Logging
+logging.level.root = INFO
+logging.level.org.springframework.web = INFO
+logging.level.org.hibernate.SQL = INFO
+spring.jpa.show-sql = true
+
+# DB
+spring.datasource.url = <databse-url>
+spring.datasource.username = <username>
+spring.datasource.password = <password>
+
+# APPLICATION CONTEXT
+server.servlet.context-path = /api
+server.port = 8080
